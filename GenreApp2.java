@@ -104,7 +104,7 @@ public class GenreApp2 extends JFrame {
         });
         
         //Unlike button
-        unlikeButton = new JButton("Remove from liked");
+        unlikeButton = new JButton("Remove from liked songs");
         unlikeButton.setVisible(false); 
         unlikeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -384,7 +384,7 @@ public class GenreApp2 extends JFrame {
             panel2.remove(label);
             panelGenre2.add(label);
         }
-        // Show changes
+        // Show changes made
         panel2.revalidate();
         panel2.repaint();
         panelGenre2.revalidate();
