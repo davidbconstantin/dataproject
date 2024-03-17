@@ -223,7 +223,7 @@ public class GenreApp2 extends JFrame {
         JLabel label = new JLabel(text);
         panel.add(label);
         
-        JTextField searchBar = new JTextField("Search Here");
+        JTextField searchBar = new JTextField("Search Songs");
         searchBar.setMaximumSize(new Dimension(Integer.MAX_VALUE, searchBar.getPreferredSize().height));
         panel.add(searchBar);
         
