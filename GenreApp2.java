@@ -171,7 +171,7 @@ public class GenreApp2 extends JFrame {
         add(buttonPanel, BorderLayout.NORTH);
         add(messageLabel);
 
-        //Adding buttons
+        //Adding buttons to the gui
 
         buttonPanel.add(homeButton);
         buttonPanel.add(likeButton);
