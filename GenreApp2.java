@@ -38,6 +38,7 @@ public class GenreApp2 extends JFrame {
     public GenreApp2() {
         //Properties
         setTitle("Genre App Project");
+        //aspect ratio - 720p
         setSize(1280, 720);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
@@ -55,7 +56,8 @@ public class GenreApp2 extends JFrame {
         likeButton = new JButton("Like️");
         genreOneRemove = new JButton("Remove from rock");
         genreTwoRemove = new JButton("Remove from rap");
-        genreOneRemove.setVisible(false); //making buttons invisible initially
+        //making buttons invisible initially
+        genreOneRemove.setVisible(false); 
         genreTwoRemove.setVisible(false);
        
         //Panels - Layout, Size
