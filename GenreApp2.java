@@ -8,6 +8,8 @@ package com.mycompany.genreapp2;
  *
  * @author David Constantin Bulugea
  */
+
+//import thigns
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -15,7 +17,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
 
-
+//class
 public class GenreApp2 extends JFrame {
     
     //Declare Variables
@@ -46,7 +48,7 @@ public class GenreApp2 extends JFrame {
         cardLayout = new CardLayout();
         mainPanel.setLayout(cardLayout);
         
-        //Buttons on side panel
+        //Buttons on the side panel
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS)); 
         
