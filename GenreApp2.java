@@ -75,6 +75,7 @@ public class GenreApp2 extends JFrame {
         JButton homeButton = new JButton("Home");
         homeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                //Visibility options for home button
                 cardLayout.show(mainPanel, "panel1");
                 unlikeButton.setVisible(false); 
                 genreOne.setVisible(false);
@@ -89,6 +90,7 @@ public class GenreApp2 extends JFrame {
         JButton likedSongs = new JButton("Liked Songs");
         likedSongs.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                //visibility for liked songs
                 cardLayout.show(mainPanel, "panel2");
                 likeButton.setVisible(false);
                 unlikeButton.setVisible(true); 
@@ -113,6 +115,7 @@ public class GenreApp2 extends JFrame {
         genreButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 cardLayout.show(mainPanel, "panelGenre1");
+                //visibility for songs
                 unlikeButton.setVisible(false);
                 genreOne.setVisible(false);
                 genreTwo.setVisible(false);
